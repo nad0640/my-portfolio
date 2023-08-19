@@ -13,12 +13,12 @@ import PageNotFound from "./pages/404/PageNotFound";
 
 function App() {
   const personalDetails = {
-    name: "Michael Yeates",
-    location: "United Kingdom",
-    email: "michael-yeates@outlook.com",
-    availability: "Not Available",
+    name: "Eric Au",
+    location: "Hong Kong",
+    email: "benauzoe@gmail.com",
+    availability: "Available",
     brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+      "My distinctive fusion of technical acumen, innovative thought processes, and a background in psychology empowers me to address every project with a profound comprehension of the user's vantage point. This approach consistently yields highly efficient and user-centric digital solutions with a strong impact.",
   };
 
   const location = useLocation();
