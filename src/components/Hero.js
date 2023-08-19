@@ -10,7 +10,7 @@ const Hero = ({ name }) => {
       bottom: "0",
       opacity: "0.3",
       mixBlendMode: "lighten",
-      height: "80%",
+      height: "110%",
     },
 
     textContainer: {
@@ -68,11 +68,11 @@ const Hero = ({ name }) => {
           transition={{ delay: 1, duration: 1.5, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt="Eric Au"
         />
       </div>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, ease: "easeInOut" }}>
-        <SocialIcons />
+        {/*<SocialIcons />*/}
       </motion.div>
     </>
   );

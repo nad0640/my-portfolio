@@ -26,14 +26,14 @@ const Footer = () => {
 
   return (
     <footer>
-      <SocialIcons />
-      <a className="footer-link" href="https://github.com/mdyeates/my-portfolio">
-        <span>
-          <AiOutlineStar /> {gitHubInfo.stars} <BiGitRepoForked />
-          {gitHubInfo.forks} - Show your support by giving this project a star!
-        </span>
+      {/*<SocialIcons />*/}
+      <a className="footer-link">
+        {/*<span>*/}
+          {/*<AiOutlineStar /> {gitHubInfo.stars} <BiGitRepoForked />*/}
+          {/*{gitHubInfo.forks} - Show your support by giving this project a star!*/}
+        {/*</span>*/}
         <p>
-          <span>▷</span> Designed and built by Michael Yeates &copy; {currentYear}
+          <span>▷</span> Designed and built by Eric Au &copy; {currentYear}
         </p>
         <p>All views and work are my own</p>
       </a>

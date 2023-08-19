@@ -42,7 +42,7 @@ const AboutMe = ({ name }) => {
           <div className="personalInfo col-12 col-lg-6">
             <motion.div className="contentContainer" variants={staggerVariants}>
               <motion.h4 variants={paragraphVariants}>Nice to meet you! 👋🏻</motion.h4>
-              <motion.h5 variants={paragraphVariants}>I'm a Software Engineer at Amazon.</motion.h5>
+              <motion.h5 variants={paragraphVariants}>I'm a Software Engineer.</motion.h5>
               <motion.div
                 className="contentDescription"
                 variants={staggerVariants}
@@ -50,24 +50,17 @@ const AboutMe = ({ name }) => {
                 animate={inView ? "animate" : "initial"}
               >
                 <motion.p variants={paragraphVariants}>
-                  Today, I find myself knee-deep in an exhilarating chapter of my journey as a degree apprentice at the
-                  tech titan, <span style={{ color: "white" }}> Amazon</span>. My playground? The captivating universe
-                  of <span style={{ color: "white" }}> Alexa</span>.
+
+                  I proudly don my <span style={{ color: "white" }}> problem-solving </span> cape and plunge into real-world challenges. All the while, I maintain an unwavering focus on achieving my degree in <span style={{ color: "white" }}> Digital and Technology Solutions</span> from the University of Conventry. So, in this moment, I find myself skillfully managing both binary complexities and practical puzzles, all while shaping my personal narrative of triumph.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  Here, I don my <span style={{ color: "white" }}> problem-solving </span>
-                  cape and dive headfirst into real-world challenges, all while relentlessly pursuing a{" "}
-                  <span style={{ color: "white" }}> Digital and Technology Solutions</span> degree from the University
-                  of Roehampton. So here I am, juggling bits of binary and real-life conundrums, all while crafting my
-                  own success story.
-                </motion.p>
-                <br />
-                <motion.p variants={paragraphVariants}>
-                  Life is a kaleidoscope of experiences, far beyond the confines of work. When code isn't my focus, I'm
-                  conquering cycling routes, feeling the wind on spirited runs, and fueling my love for Formula One.
-                  Amid serene moments, I transform into a film aficionado, seeking films that kindle inspiration and
-                  provoke thought.
+                  As I navigate through this kaleidoscope of experiences, both professional and personal, Feel free to explore my portfolio and join me in celebrating the fusion of technology, creativity, and adventure.
+
+
+
+
+
                 </motion.p>
               </motion.div>
               <NavLink to="/portfolio">

@@ -19,7 +19,7 @@ const SocialIcons = () => {
           transition={{ delay: 1.8, duration: 0.5, type: "spring" }}
           className="fa-brands fa-github"
           aria-hidden="true"
-          title="Michael Yeates' GitHub Profile"
+          title="Eric Au' GitHub Profile"
         ></motion.i>
       </a>
       <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/mdyeates/">
@@ -29,7 +29,7 @@ const SocialIcons = () => {
           transition={{ delay: 1.7, duration: 0.5, type: "spring" }}
           className="fa-brands fa-linkedin"
           aria-hidden="true"
-          title="Michael Yeates' LinkedIn Profile"
+          title="Eric Au' LinkedIn Profile"
         ></motion.i>
       </a>
       <a className="icon" style={styles.icon} href="https://www.instagram.com/michael.yeates/">
@@ -39,7 +39,7 @@ const SocialIcons = () => {
           transition={{ delay: 1.6, duration: 0.5, type: "spring" }}
           className="fa-brands fa-instagram"
           aria-hidden="true"
-          title="Michael Yeates' Instagram Profile"
+          title="Eric Au' Instagram Profile"
         ></motion.i>
       </a>
       <a className="icon" style={styles.icon} href="https://twitter.com/mdyeates">
@@ -49,7 +49,7 @@ const SocialIcons = () => {
           transition={{ delay: 1.5, duration: 0.5, type: "spring" }}
           className="fa-brands fa-twitter"
           aria-hidden="true"
-          title="Michael Yeates' Twitter Profile"
+          title="Eric Au' Twitter Profile"
         ></motion.i>
       </a>
     </div>

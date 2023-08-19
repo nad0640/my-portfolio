@@ -27,9 +27,7 @@ function App() {
 
   return (
     <>
-      {showLoader ? (
-        <Loader setShowLoader={setShowLoader} />
-      ) : (
+      {(
         <>
           <Header />
           <Routes location={location} key={location.pathname}>
