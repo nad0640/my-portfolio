@@ -103,14 +103,14 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
           </div>
 
           <div className="modalBtns">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 1 }}
-              className="btn"
-              onClick={() => (window.location.href = github)}
-            >
-              GitHub
-            </motion.button>
+            {/*<motion.button*/}
+            {/*  whileHover={{ scale: 1.05 }}*/}
+            {/*  whileTap={{ scale: 1 }}*/}
+            {/*  className="btn"*/}
+            {/*  onClick={() => (window.location.href = github)}*/}
+            {/*>*/}
+            {/*  GitHub*/}
+            {/*</motion.button>*/}
 
             <motion.button
               whileHover={{ scale: 1.05 }}
