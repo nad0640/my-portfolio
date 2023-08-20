@@ -33,7 +33,7 @@
     "title": "ChatBot",
     "image": "./projectImages/chatbot.png",
     "technologies": ["Php", "HTML", "CSS","Myqsl"],
-    "description": "Yo, check this out – it's like a quiz app but all about JavaScript, the code wizardry stuff. You ready? Cool, here's the deal:\nYou're gonna get hit with 5 random questions, like pop quizzes but cooler. You've got 50 seconds on the clock to prove your skills. And here's the kicker – your score depends on how much time you've got left. So, like, speed is key!\nBut wait, there's a twist – every time you slip up and get a question wrong, I'm gonna snatch away 10 precious seconds from your timer. No pressure, right? 😅",
+    "description": "The Cloud-Based Student Information Chatbot System is a web application powered by AI that understands and responds to student queries about college activities. It accepts queries in various formats, uses AI for accurate responses, and allows users to flag incorrect answers. Admins can review and edit flagged responses. The system offers a user-friendly interface that mimics human interaction. It's deployed on a cloud platform like AWS or GCP for easy access and scalability.",
     "github": "https://github.com/mdyeates/coding-quiz",
     "deployed": "https://edgier-basis.000webhostapp.com/index.php",
     "bgcolor": "#f85781",
