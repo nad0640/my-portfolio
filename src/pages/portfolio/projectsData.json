@@ -1,7 +1,7 @@
 [
   {
     "title": "Music Player",
-    "image": "./projectImages/bike.png",
+    "image": "./projectImages/player.png",
     "description": "Exceptional Features\n⭕ Embraces all essential functions of a top-tier music player\n\uD83C\uDF4F Secure the MP3 tracks you love along with their detailed metadata\n\uD83C\uDFE0 Embodying a sleek and contemporary design\n\uD83D\uDCF1 Streamlined interface for seamless mobile navigation\n♻ Absolutely ad-free, completely open-source, and meticulously optimized code\n\uD83C\uDFB5 Dive into an extensive treasure trove of songs, fetched directly for your pleasure",
     "technologies": ["Bootstrap", "HTML", "CSS","Typescript","Javascript"],
     "github": "https://github.com/mdyeates/bike-buddy",
@@ -28,5 +28,15 @@
     "deployed": "https://eric-planner-work-red.vercel.app",
     "bgcolor": "#3e67ff",
     "id": "6"
+  },
+  {
+    "title": "ChatBot",
+    "image": "./projectImages/chatbot.png",
+    "technologies": ["Php", "HTML", "CSS","Myqsl"],
+    "description": "Yo, check this out – it's like a quiz app but all about JavaScript, the code wizardry stuff. You ready? Cool, here's the deal:\nYou're gonna get hit with 5 random questions, like pop quizzes but cooler. You've got 50 seconds on the clock to prove your skills. And here's the kicker – your score depends on how much time you've got left. So, like, speed is key!\nBut wait, there's a twist – every time you slip up and get a question wrong, I'm gonna snatch away 10 precious seconds from your timer. No pressure, right? 😅",
+    "github": "https://github.com/mdyeates/coding-quiz",
+    "deployed": "https://edgier-basis.000webhostapp.com/index.php",
+    "bgcolor": "#f85781",
+    "id": "4"
   }
 ]
