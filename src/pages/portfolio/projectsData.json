@@ -32,7 +32,7 @@
   {
     "title": "ChatBot",
     "image": "./projectImages/chatbot.png",
-    "technologies": ["Php", "HTML", "CSS","Myqsl"],
+    "technologies": ["Php", "HTML", "CSS","Mysql"],
     "description": "The Cloud-Based Student Information Chatbot System is a web application powered by AI that understands and responds to student queries about college activities. It accepts queries in various formats, uses AI for accurate responses, and allows users to flag incorrect answers. Admins can review and edit flagged responses. The system offers a user-friendly interface that mimics human interaction. It's deployed on a cloud platform like AWS or GCP for easy access and scalability.",
     "github": "https://github.com/mdyeates/coding-quiz",
     "deployed": "https://edgier-basis.000webhostapp.com/index.php",
