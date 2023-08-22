@@ -3,16 +3,16 @@
     "title": "Router",
     "image": "./projectImages/Router.png",
     "technologies": ["React ", "Bootstrap", "Vite","HTML", "CSS"],
-    "description": "Okay, get this – we're talking about a team dashboard, a snazzy Node command-line thingy. You feed it info about your crew, and it cooks up this super cool HTML page that's like, alive!\nImagine you're the boss – you toss in deets about your peeps, and bam! You've got a webpage that's all lively and stuff. Who needs boring spreadsheets, right? 😉",
-    "deployed": "https://map-hk.netlify.app/",
+    "description": "I utilized Leaflet.js and Geolocation APIs to build an interactive, visually appealing map. You can easily plan routes, taking factors like traffic, bike lanes, and hill steepness into account. It's like planning a kid-friendly adventure!",
+      "deployed": "https://map-hk.netlify.app/",
     "bgcolor": "#6c4bf4",
     "id": "3"
   },
     {
     "title": "Health",
     "image": "./projectImages/Health.png",
-    "description": "Hey there, revheads! Say hello to P1, your one-stop virtual hangout for all things F1. We've got the freshest scoop, live standings – you name it. But guess what? There's more! Brace yourself for the coolest card game in town, where being an F1 guru is your golden ticket to winning big.\nBy the way, I'm the styling and animation wizard behind the scenes, conjuring up that sleek and eye-catching look you're loving. And don't forget the news section – that's my baby too. So while you dive into the F1 universe and master the card game, know that I've got you covered with style, animations, and the latest hot-off-the-track updates. 🏎️ 🎉",
-    "technologies": ["Bootstrap", "HTML", "CSS"],
+    "description": "Amidst life's chaos, when emotions like depression weigh heavily, we crafted a Mental Health web app. Our inspiration was to offer motivation through uplifting quotes and ease stress. Additionally, we aimed to broaden the availability of mental health resources and support.\n\nRecognizing the widespread prevalence of mental health issues, we saw the struggle many face in accessing vital resources. Our web app seeks to bridge this gap by providing self-help tools, educational materials, and a space for connecting with a supportive community. Our goal is to empower individuals who might find traditional services inaccessible or daunting.",
+      "technologies": ["Bootstrap", "HTML", "CSS"],
     "deployed": "https://mental-health-project-sigma.vercel.app/",
     "bgcolor": "#ffcc33",
     "id": "1"
