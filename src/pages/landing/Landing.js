@@ -28,7 +28,9 @@ const Landing = ({ name }) => {
         <Draw />
         <Hero name={name} />
       </section>
+    <section className={`relative w-full h-[132vh] mx-auto`}>
       <ComputersCanvas />
+    </section>
       <About />
       <About2 />
         <Tech />
