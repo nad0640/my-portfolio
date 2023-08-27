@@ -45,9 +45,9 @@ const NavLinks = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 2.2, duration: 0.5, type: "spring" }}
         >
-          <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
-            Contact
-          </NavLink>
+          {/*<NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>*/}
+          {/*  Contact*/}
+          {/*</NavLink>*/}
         </motion.div>
       </nav>
     </>

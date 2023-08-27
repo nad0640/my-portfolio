@@ -1,6 +1,16 @@
 import Hero from "../../components/Hero";
 import Draw from "../../components/Draw";
 import About from "../../components/AboutMe";
+import React, { useState, useEffect } from 'react';
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import ComputersCanvas from "../../components/canvas/Computers";
+import Contact from "../../components/Contact";
+import {StarsCanvas} from "../../components/canvas";
+import Tech from "../../components/Tech";
+import About2 from "../../components/About2";
+
+
 
 const Landing = ({ name }) => {
   const styles = {
@@ -18,7 +28,14 @@ const Landing = ({ name }) => {
         <Draw />
         <Hero name={name} />
       </section>
+      <ComputersCanvas />
       <About />
+      <About2 />
+        <Tech />
+        <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
     </>
   );
 };
