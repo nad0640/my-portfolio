@@ -33,9 +33,8 @@ const Footer = () => {
           {/*{gitHubInfo.forks} - Show your support by giving this project a star!*/}
         {/*</span>*/}
         <p>
-          <span>▷</span> Designed and built by Eric Au &copy; {currentYear}
+          © 2023,Eric Au
         </p>
-        <p>All views and work are my own</p>
       </a>
     </footer>
   );

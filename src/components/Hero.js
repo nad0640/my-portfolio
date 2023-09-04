@@ -60,17 +60,17 @@ const Hero = ({ name }) => {
           />
         </motion.div>
       </div>
-      <div className="image-container">
-        <motion.img
-          className="landingImage"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.25 }}
-          transition={{ delay: 1, duration: 1.5, ease: "easeInOut" }}
-          style={styles.landingImage}
-          src={landingImage}
-          alt="Eric Au"
-        />
-      </div>
+      {/*<div className="image-container">*/}
+      {/*  <motion.img*/}
+      {/*    className="landingImage"*/}
+      {/*    initial={{ opacity: 0 }}*/}
+      {/*    animate={{ opacity: 0.25 }}*/}
+      {/*    transition={{ delay: 1, duration: 1.5, ease: "easeInOut" }}*/}
+      {/*    style={styles.landingImage}*/}
+      {/*    src={landingImage}*/}
+      {/*    alt="Eric Au"*/}
+      {/*  />*/}
+      {/*</div>*/}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, ease: "easeInOut" }}>
         {/*<SocialIcons />*/}
       </motion.div>

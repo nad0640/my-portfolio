@@ -25,7 +25,7 @@ const Landing = ({ name }) => {
   return (
     <>
       <section className="landing container" style={styles.landing}>
-        <Draw />
+        {/*<Draw />*/}
         <Hero name={name} />
       </section>
     {/*<section className={`relative w-full h-[132vh] mx-auto`}>*/}

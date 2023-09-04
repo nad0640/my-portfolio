@@ -18,37 +18,37 @@ const NavLinks = () => {
       </button>
       <nav className={`links ${isMenuOpen ? "open" : "closed"}`}>
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 2.4, duration: 0.5, type: "spring" }}
+          // initial={{ x: -100, opacity: 0 }}
+          // animate={{ x: 0, opacity: 1 }}
+          // transition={{ delay: 2.4, duration: 0.5, type: "spring" }}
         >
           <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
             Home
           </NavLink>
         </motion.div>
 
-        {/* <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
-          About
-        </NavLink> */}
+        {/*<NavLink to="/about" onClick={() => setIsMenuOpen(false)}>*/}
+        {/*  About*/}
+        {/*</NavLink>*/}
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 2.3, duration: 0.5, type: "spring" }}
+          // initial={{ x: -100, opacity: 0 }}
+          // animate={{ x: 0, opacity: 1 }}
+          // transition={{ delay: 2.3, duration: 0.5, type: "spring" }}
         >
           <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>
             Portfolio
           </NavLink>
         </motion.div>
 
-        <motion.div
-          initial={{ x: -100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 2.2, duration: 0.5, type: "spring" }}
-        >
-          {/*<NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>*/}
-          {/*  Contact*/}
-          {/*</NavLink>*/}
-        </motion.div>
+        {/*<motion.div*/}
+        {/*  initial={{ x: -100, opacity: 0 }}*/}
+        {/*  animate={{ x: 0, opacity: 1 }}*/}
+        {/*  transition={{ delay: 2.2, duration: 0.5, type: "spring" }}*/}
+        {/*>*/}
+        {/*  /!*<NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>*!/*/}
+        {/*  /!*  Contact*!/*/}
+        {/*  /!*</NavLink>*!/*/}
+        {/*</motion.div>*/}
       </nav>
     </>
   );

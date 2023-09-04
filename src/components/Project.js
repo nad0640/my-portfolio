@@ -35,10 +35,10 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
     <motion.div
       ref={ref}
       className="col-sm-12 col-lg-6"
-      variants={variants}
-      initial="hidden"
-      animate={inView ? "visible" : "hidden"}
-      transition={{ duration: 0.4, ease: "easeInOut" }}
+      // variants={variants}
+      // initial="hidden"
+      // animate={inView ? "visible" : "hidden"}
+      // transition={{ duration: 0.4, ease: "easeInOut" }}
     >
       <div
         style={{ backgroundColor: color }}

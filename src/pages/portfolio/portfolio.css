@@ -15,7 +15,7 @@
   margin-bottom: 20px;
   overflow: hidden;
   position: relative;
-  transition: all 0.5s ease-in-out;
+  /*transition: all 0.5s ease-in-out;*/
   flex-direction: column;
   padding: 0 !important;
   cursor: pointer;
@@ -27,7 +27,7 @@
 }
 
 .textWrap {
-  transition: all 0.9s ease-in-out;
+  /*transition: all 0.9s ease-in-out;*/
   z-index: 1;
 }
 
@@ -38,7 +38,7 @@
 .imageContainer img {
   height: 12em;
   margin-top: 25px;
-  transition: all 1.3s ease-in-out;
+  /*transition: all 1.3s ease-in-out;*/
 }
 
 .tech {
@@ -69,7 +69,7 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0.3;
-  transition: opacity 0.3s ease-in-out;
+  /*transition: opacity 0.3s ease-in-out;*/
 }
 
 .closeModal {
@@ -146,7 +146,7 @@
 
   .imageContainer {
     transform: translateX(30%);
-    transition: all 0.3s ease-in-out;
+    /*transition: all 0.3s ease-in-out;*/
   }
 
   .projectCard:hover .imageContainer {
@@ -165,10 +165,10 @@
     scale: 1.4;
   }
 
-  .imageContainer {
-    transform: translateX(30%);
-    transition: all 0.3s ease-in-out;
-  }
+  /*.imageContainer {*/
+  /*  transform: translateX(30%);*/
+  /*  transition: all 0.3s ease-in-out;*/
+  /*}*/
 
   .textWrap {
     text-shadow: none;
